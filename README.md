@@ -61,8 +61,9 @@ Weitere Informationen zur Konfiguration der Generierung von Vorgangsnummern gibt
 
 ### Pseudonymisierung der Patienten-ID
 
-Diese Anwendung nutzt die Pseudonymisierungsfunktion von gPAS. Wenn eine URI zu einer gPAS-Instanz (Version >= 2023.1.0)
-angegeben ist, wird diese verwendet.
+Diese Anwendung nutzt die Pseudonymisierungsfunktion von gPAS oder [Vfps](https://github.com/miracum/vfps).
+Wenn eine URI zu einer gPAS-Instanz (Version >= 2023.1.0) oder zu einer Vfps-Instanz angegeben ist,
+wird diese verwendet.
 Ist diese nicht gesetzt, wird intern eine Anonymisierung der Patienten-ID vorgenommen.
 
 Weitere Informationen zur Konfiguration der Pseudonymisierung gibt es hier:
